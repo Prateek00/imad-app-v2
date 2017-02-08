@@ -54,7 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('/ui/nature.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -116,50 +116,6 @@ ul.skills {
   background: #0399ff;
 }
 
-footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 20px 0 40px 20px;
-}
-
-footer .copyright {
-  top: -8px;
-  margin-right: 20px;
-  font-size: .75em;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-}
-
-a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .5;
-  transition: all .25s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
-a.github {
-  background-image: url(images/github.svg);
-}
-a.social:hover {
-  opacity: 1;
-}
 .clearfix {
   clear: both;
 }
@@ -195,12 +151,5 @@ a.social:hover {
   main p {
     line-height: 1.6em;
   }
-
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-  }
-
 }
-
+ 
