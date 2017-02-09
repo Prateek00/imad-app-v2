@@ -17,3 +17,18 @@ header {
 header {
   line-height: 1.5;
 }
+.tag {
+  background-color: #efefef;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.location {
+  background-color: #222;
+  color: yellow;
+}
+header .img-medium:hover {
+  transform: scale(1.2) rotate(5deg);
+}
