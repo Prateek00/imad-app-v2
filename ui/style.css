@@ -28,8 +28,8 @@ header {
 .location {
   background-color: #222;
   color: yellow;
-   display: table;
+   margin: 10px auto;
 }
 .img-medium:hover {
-  transform: scale(2.2) rotate(360deg);
+  transform: scale(1.8) rotate(360deg);
 }
