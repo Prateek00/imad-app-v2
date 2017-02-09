@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
 .img-medium {
   margin-top: 50px;
   width: 150px;
