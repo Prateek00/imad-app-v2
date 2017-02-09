@@ -1,6 +1,8 @@
-
-.img-medium {
-    display: block;
-    margin: auto;
-   
+header .img-medium {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
 }
