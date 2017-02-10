@@ -63,6 +63,14 @@ header {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+a:hover {
+  color: #6633ff;
+}
+
 .nav .name {
   display: none;
 }
