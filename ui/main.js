@@ -1,15 +1,9 @@
-console.log('Loaded!');
-var img=document.getElementById('mai');
+var button = document.getElementById('counter');
 
-var marginLeft=0;
-
-function moveRight(){
+var counter = 0;
+button.onclick = fumction(){
     
-    marginLeft=marginLeft+2;
-    img.style.marginLeft=marginLeft+'px';
-}
-
-img.onclick = function(){
-    
-    var interval=setInterval(moveRight,100);
+    counter+=1;
+    var span = document.getElementById('count');
+    span.insertHTML = counter.toString();
 }
