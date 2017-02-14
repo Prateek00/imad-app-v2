@@ -91,7 +91,7 @@ a:hover {
   }
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 20px 40px 40px 40px;
   max-width: 500px;
   text-align: left;
   background: #fff;
