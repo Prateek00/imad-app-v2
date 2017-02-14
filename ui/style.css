@@ -43,7 +43,7 @@ header {
   margin: 10px auto;
 }
 .img-medium:hover {
-  transform: scale(1.5) rotate(360deg);
+  transform: scale(1.5) rotate(0deg);
 }
 
 .main-nav {
