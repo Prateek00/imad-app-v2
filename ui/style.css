@@ -116,9 +116,14 @@ a:hover {
     
 .footer{
  
-    margin-top: 100px;
-    margin-bottom:500px;
-    
+     margin-top: 100px;
+  margin-left: 200px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
 }    
 
 .web{
