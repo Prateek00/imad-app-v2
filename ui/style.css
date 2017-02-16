@@ -70,12 +70,12 @@ a {
 a:hover {
   color: #6633ff;
 }
-
-.nav .name {
+.name {
+    margin:0 auto;
   color: white;
 }
 .nav li {
-  padding: 10px 10px 10px 10px;
+  padding: 5px 10px 10px 10px;
 }
 .nav a {
   transition: all .5s;
