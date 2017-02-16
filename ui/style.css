@@ -76,6 +76,7 @@ a:hover {
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  margin:0 auto;
 }
 .nav a {
   transition: all .5s;
