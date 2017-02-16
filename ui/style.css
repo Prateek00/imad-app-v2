@@ -72,7 +72,8 @@ a:hover {
 }
 .name {
     margin:0 auto;
-  color: white;
+    padding:0px;
+    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
