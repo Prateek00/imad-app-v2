@@ -53,6 +53,7 @@ header {
   padding: 0px;
   position: fixed;
   text-align: center;
+  margin:0;
 }
 .nav {
   display: flex;
