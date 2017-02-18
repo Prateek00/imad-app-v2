@@ -37,7 +37,7 @@ header {
   padding: 10px;
   border-radius: 5px;
   display: table;
-  
+  margin: 10px auto;
 } 
 .location {
   background-color: #222;
@@ -45,7 +45,7 @@ header {
    padding: 10px;
   border-radius: 5px;
   display: table;
-  
+  margin: 10px auto;
 }
 .img-medium:hover {
   transform: scale(1.5) rotate(10deg);
