@@ -15,7 +15,8 @@ body {
   border: 3px solid white;
   transition: all .5s;
   position:absolute;
-  left:10px;
+  left:20px;
+  top:100px;
 }
 
 header {
