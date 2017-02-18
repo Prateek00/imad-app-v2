@@ -14,9 +14,7 @@ body {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
-  position:absolute;
-  left:20px;
-  top:100px;
+ 
 }
 
 header {
