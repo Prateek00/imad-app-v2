@@ -14,7 +14,7 @@ body {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
-  margin-left:100px;
+  margin-left:0px;
 }
 
 header {
