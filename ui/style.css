@@ -18,7 +18,7 @@ body {
 }
 
 header {
-  
+  text-align:centre;
   background: url('/ui/nature.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
