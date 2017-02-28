@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+  background: url('av.7.jpg') repeat;
+}
+
+.img-medium {
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+  margin-top:-90px;
+ 
+}
+.git{
+    margin-left:200px;
+    
+}
+
+
+header {
+  background: url('mountains2.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 150px;
+
+}
+header {
+  line-height: 1.5;
+}
+.tall {
+  background-color:#19534D;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+} 
+.location {
+  background-color: #222;
+  color: yellow;
+   padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+.img-medium:hover {
+  transform: scale(1.5) rotate(10deg);
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 0px;
+  position: fixed;
+  text-align: center;
+  margin:0;
+ 
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0499ff;
+}
+a:hover {
+  color: #6633ff;
+}
+.name {
+    margin:0 auto;
+    color: white;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+}
+ .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+.card {
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  background-color:#19534D;
+}
+.card:hover {
+  border-color: #ff99ff;
+}
+.contact{
+  margin-top: 30px;
+  margin-left: 350px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+    
+.footer{
+ 
+     margin-top: 100px;
+  margin-left: 200px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}    
+
+.web{
+    
+  margin-top: 30px;
+  margin-left: 300px;
+ 
+}
+
+.youtube{
+    
+    margin-top:20px;
+}
+.ISRO{
+    
+    text-align: left;
+    background-color:#19534D;
+	margin-top:50px;
+	font-size:40px;
+}
+.p1{
+	color:white;
+}
