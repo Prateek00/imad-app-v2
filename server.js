@@ -24,7 +24,7 @@ app.get('/atricle_3',function(req,res){
 
 
 
-app.get('/ui/stylee.css', function (req, res) {
+app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
