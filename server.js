@@ -24,7 +24,7 @@ app.get('/atricle_3',function(req,res){
 
 
 
-app.get('/ui/style.css', function (req, res) {
+app.get('/ui/stylee.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
@@ -40,6 +40,11 @@ app.get('/ui/resume.pdf', function (req, res) {
 app.get('/ui/pat.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'pat.png'));
 });
+
+app.get('/ui/av.7.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'jpeg.png'));
+});
+
 
 app.get('/ui/Pat1.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Pat1.jpg'));
