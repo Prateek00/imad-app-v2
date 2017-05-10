@@ -65,60 +65,39 @@
         <div class="youtube">
         <iframe width="400" height="275" src="https://www.youtube.com/embed/aYf_uyHQN5o" frameborder="0" allowfullscreen></iframe>
         </div>        
-    
-    <style>
-  .speech {border: 1px solid #DDD; width: 300px; padding: 0; margin: 0}
-  .speech input {border: 0; width: 240px; display: inline-block; height: 30px;}
-  .speech img {float: right; width: 40px }
-</style>
-
-<!-- Search Form -->
-<form id="labnol" method="get" action="https://www.google.com/search">
-  <div class="speech">
-    <input type="text" name="q" id="transcript" placeholder="Speak" />
-    <img onclick="startDictation()" src="//i.imgur.com/cHidSVu.gif" />
-  </div>
-</form>
-
-<!-- HTML5 Speech Recognition API -->
-<script>
-  function startDictation() {
-
-    if (window.hasOwnProperty('webkitSpeechRecognition')) {
-
-      var recognition = new webkitSpeechRecognition();
-
-      recognition.continuous = false;
-      recognition.interimResults = false;
-
-      recognition.lang = "en-US";
-      recognition.start();
-
-      recognition.onresult = function(e) {
-        document.getElementById('transcript').value
-                                 = e.results[0][0].transcript;
-        recognition.stop();
-        document.getElementById('labnol').submit();
-      };
-
-      recognition.onerror = function(e) {
-        recognition.stop();
-      }
-
+ <script>   
+function convertAudioToText(flacFile, languageCode) {
+  
+  var file = DriveApp.getFilesByName(flacFile).next();
+  var bytes = file.getBlob().getBytes();
+  
+  var payload = {
+    config:{
+      encoding: "LINEAR16",
+      sampleRate: 16000,
+      languageCode: languageCode || "en-US"
+    },
+    audio: {
+      // You may also upload the audio file to Google 
+      // Cloud Storage and pass the object URL here
+      content:Utilities.base64Encode(bytes)
     }
-  }
+  };
+  
+  // Replace XYZ with your Cloud Speech API key
+  var response = UrlFetchApp.fetch(
+    "https://speech.googleapis.com/v1beta1/speech:syncrecognize?key=19b51d2de3b8e782dfd74abd56f75d17dbb230b3", {
+      method: "POST",
+      contentType: "application/json",
+      payload: JSON.stringify(payload),
+      muteHttpExceptions: true
+    });
+  
+  Logger.log(response.getContentText());
+  
+}
+   
 </script>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <h1>My First Google Map</h1>
     <div id="googleMap" style="width:100%;height:450px;"></div>
 
